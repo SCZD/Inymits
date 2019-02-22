@@ -1,0 +1,171 @@
+body{
+	background: #eeeeee;
+}
+.banner{
+	width: 100%;
+	height: 175px;
+	background: url("banner.jpg") fixed no-repeat center;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+.favicon{
+	display: inline-block;
+	position: absolute;
+}
+.nav{
+	width: 100%;
+	text-align: center;
+	background:  #cccccc;
+}
+.menu{
+	width: 80%;
+	display: inline-block;
+	background:  #cccccc;
+}
+.menu-item{
+	display: inline-block;
+}
+.sub-menu{
+	position: absolute;
+	display: none;
+}
+.sub-menu-item{
+	display: block;
+	margin-left: -40px;
+}
+.menu-item:hover .sub-menu{   
+  	display: block;
+}
+.link{
+	text-decoration: none;
+	color: black;
+	padding: 14px 8px 13px 8px;
+}
+.link:hover{
+	color: white;
+	background: black;
+}
+.notice{
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid black;
+}
+.not1{
+	width: 70%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: inline-block;
+	box-shadow: 10px 10px black;
+	border: 1px solid black;
+	padding: 8px;
+}
+.not1 h3{
+	text-align: left;
+}
+.not1 p{
+	text-align: left;
+}
+.lateral{
+	display: inline-block;
+	margin-left: 0%;
+	width: 17%;
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+	vertical-align: top;
+}
+.lateral2{
+	display: inline-block;
+	margin-left: 0%;
+	width: 17%;
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+	vertical-align: top;
+}
+.contenido{
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+}
+a{
+	text-decoration: none;
+}
+/* -------------------------- QUIENES SOMOS ------------*/
+.qs, .qh{
+	width: 100%;
+	text-align: center;
+}
+.sczd{
+	display: inline-block;
+	width: 80%;
+	text-align: left;
+}
+.sczd h1{
+	text-align: center;
+}
+.meimg{
+	text-align: center;
+}
+.meimg h4{
+	width: 45%;
+	display: inline-block;
+	border: 1px solid black;
+	height: 200px;
+}
+.megl{
+	margin-left: 50px;
+}
+.qhdiv{
+	width: 80%;
+	display: inline-block;
+}
+.qhproject{
+	position: relative; /* esto haY QUI ENPONE RLO PARA QUE FUNCION LO DE BOOTOM Y RIGHT 0 DE CLICK HERE"*/
+	display: inline-block;
+	width: 80%;
+	height: 750px;
+	border: 1px solid black;
+	margin-bottom: 45PX;
+}
+.moreplus{
+	position: absolute;
+	display: inline-block;
+	bottom: 0; /* NO PONER MARGIN ES MARGIN ES MARGIN Y SIN NADA ES LA DISTRANCIQ QUE DEBE DE HABER*/
+	right: 20px;
+}
+.all{
+	display: inline-block;
+}
+.all1{
+	position: relative;
+	height: 250px;
+	width: 250px;
+	display: inline-block;
+	border: 1px solid black;
+	margin: 50px 125px;
+}
+.all1 p{
+	position: absolute;
+	bottom: 0;
+
+}
+.all1 img{
+	position: absolute;
+	top: 25%;
+    left: 50%;
+	transform: translate(-50%, -50%); 
+}
+.max{width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+.miembros{
+	margin-top: 75px;
+}
+.sczd{
+	margin-bottom: 75px;
+	margin-top: 75px;
+}
+.sczd h1{
+	margin-bottom: 35px;
+}
